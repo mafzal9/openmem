@@ -3,7 +3,7 @@
 ## 1. Install the CLI
 
 ```bash
-npm install -g openmem
+npm install -g @phpdocs/openmem
 ```
 
 Or with Bun:

@@ -1,0 +1,68 @@
+{
+  "name": "openmem",
+  "version": "0.1.0",
+  "description": "Open, portable memory for all coding agents — Claude, opencode, Cursor, Windsurf, Codex and more",
+  "type": "module",
+  "bin": {
+    "openmem": "bin/openmem.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "docs",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "dev": "npx tsx src/index.ts",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "memory",
+    "context",
+    "context-memory",
+    "shared-memory",
+    "claude",
+    "cursor",
+    "opencode",
+    "windsurf",
+    "codex",
+    "agent-memory",
+    "cross-agent",
+    "cli"
+  ],
+  "author": "OpenMem Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafzal9/openmem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mafzal9/openmem/issues"
+  },
+  "homepage": "https://github.com/mafzal9/openmem#readme",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "cac": "^6.7.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

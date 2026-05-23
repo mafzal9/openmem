@@ -1,0 +1,9 @@
+# npm publish ignore list
+src/
+.context/
+*.log
+.DS_Store
+.vscode/
+.idea/
+bun.lockb
+*.tgz

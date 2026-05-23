@@ -1,0 +1,27 @@
+---
+project: your-project-name
+last_updated: 2026-05-23
+agents: [claude, opencode, cursor]
+---
+
+# Project Context Memory
+
+This file is the single source of truth for long-term context shared across all coding agents.
+
+## How to use
+
+- Never delete or overwrite this file manually unless you know what you're doing.
+- Use the `ctx` CLI or your agent's skill to append new information.
+- All writes are timestamped and attributed to a specific agent.
+
+## Current Architecture
+
+<!-- Add your key decisions here -->
+
+## Known Gotchas
+
+<!-- Things that trip up new agents or developers -->
+
+## Active Tasks
+
+<!-- What the team / agents are currently working on -->

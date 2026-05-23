@@ -1,6 +1,6 @@
 {
   "name": "@phpdocs/openmem",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Open, portable memory for all coding agents — Claude, opencode, Cursor, Windsurf, Codex and more",
   "type": "module",
   "bin": {
